@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="container">
+    <!--================ HEADER =================-->
+        
+    <header>  
+        <div class="logo">
+            <img src="images/web_logo.png" alt="web-logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <br>
+
+    <!--================ Top Banner =================-->
+
+    <div class="slider">
+
+        <img id="slideImage" src="images/banner1.png" alt="Gallery Image">
+
+        <button class="prev" onclick="previousImage()">&#10094;</button>
+        <button class="next" onclick="nextImage()">&#10095;</button>
+
+    </div>
+
+    <!--================ HERO =================-->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Discover Extraordinary Digital Art</h2>
+    
+            <p>
+                ArtVista Gallery brings together talented digital artists from around the world. Browse original artwork, prints and limited edition pieces, all curated for people who love beautiful things.
+            </p>
+            <a href="gallery.html" class="button">Explore Artworks</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/intro_img.png" alt="intro-img">
+    
+        </div>
+    </section>
+    <!--================ Featured Artworks =================-->
+    <section>
+        <h2 class="title">Featured Artworks</h2>
+        <div class="cards">
+            
+            <div class="card"> 
+                <img src="images/forest_spirit.png" alt="Forest Spirit">
+                
+                <h3>Forest Spirit</h3>        
+                
+                <p>Digital Painting</p>
+            
+            </div>
+        
+            <div class="card">
+                <img src="images/cosmic_journey.png" alt="Cosmic Journey">
+            
+                <h3>Cosmic Journey</h3>
+            
+                <p>Digital Painting</p>
+            
+            </div>
+        
+            <div class="card">
+            
+                <img src="images/dreamscape.png" alt="Dreamscape">
+            
+                <h3>Dreamscape</h3>
+            
+                <p>Illustration</p>
+            
+            </div>
+        
+            <div class="card">
+            
+                <img src="images/cyber_city.png" alt="Cyber City">
+            
+                <h3>Cyber City</h3>
+            
+                <p>3D Art</p>
+            
+            </div>
+        
+        </div>
+    </section>
+
+    <!--================ FOOTER =================-->
+    <footer>
+        <div class="footer-box">
+            <h3>Digital Art Gallery</h3>
+        
+            <p>123 Art Street</p>
+            <p>Kathmandu, Nepal</p>
+        
+        </div>
+
+        <hr>
+    
+        <div class="footer-box">
+        
+            <h3>Quick Links</h3>
+        
+            <p><a href="index.html">Home</a></p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="gallery.html">Gallery</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        
+        </div>
+
+        <hr>
+    
+        <div class="footer-box">
+        
+            <h3>Contact</h3>
+        
+            <p>
+                Email:
+                <a href="mailto:info@digitalart.com">
+                    info@digitalart.com
+                </a>
+            </p>
+        </div>
+    
+    </footer>
+    <div class="copyright">
+    
+        © 2026 Digital Art Gallery | All Rights Reserved
+    
+    </div>
+    
+</div>
+
+<script src="js/slider.js"></script>
+
+</body>
+</html>
